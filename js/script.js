@@ -12,3 +12,12 @@ imagem1.addEventListener("click", function () {
 });
 
 // Imagem 2
+const imagem2 = document.getElementById("lampada-02");
+imagem2.addEventListener("mouseover", function () {
+  console.log(imagem2.src);
+    imagem2.src = "img/lampada-on.jpg";
+  });
+  imagem2.addEventListener("mouseout", function () {
+    console.log(imagem2.src);
+      imagem2.src = "img/lampada.jpg";
+    });
